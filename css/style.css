@@ -7,7 +7,7 @@ body {
     overflow-wrap: break-word;
 }
 
-#home{
+#home {
     background-image: url(../imagens/bk.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -29,11 +29,11 @@ body {
 
 }
 
-#home  div img{
+#home div img {
     width: 20%;
     align-items: center;
     margin-left: 40%;
-    
+
 }
 
 #plataformas {
@@ -53,15 +53,77 @@ body {
 
 #plataformas a {
     margin: 40px;
-    
+
+
+}
+
+#personagens {
+    display: flex;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 11%, rgba(61, 51, 26, 1) 76%, rgba(142, 119, 62, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(247, 209, 108, 1) 100%);
+    font-family: 'Noto Serif', serif;
+}
+
+#personagens h1 {
+
+    color: #daa520;
+    text-align: center;
+
+}
+
+.personagens2 {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.personagens2 h2 {
+    text-align: justify;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.personagens2 img {
+    border: 2px solid #000000;
+    border-radius: 30px;
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
 
 }
 
 
-h1 {
-    font-weight: 900;
-    color: #000;
+
+.personagens2 ul {
+
+
+    max-width: 100%;
+    width: 280px;
+    height: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(left, #daa520, #302c17);
+    background: -moz-linear-gradient(left, #daa520, #302c17);
+    background: -ms-linear-gradient(left, #daa520, #302c17);
+    background: -o-linear-gradient(left, #daa520, #302c17);
+    background: linear-gradient(to right, #daa520, #302c17);
+    margin-left: 30px;
+
 }
+
+.personagens2 li {
+    list-style-type: none;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
 
 
 .conteudo {
@@ -75,21 +137,12 @@ main {
 }
 
 
-#personagens {
-    font-family: 'Noto Serif', serif;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 11%, rgba(61, 51, 26, 1) 76%, rgba(142, 119, 62, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(247, 209, 108, 1) 100%);
-    color: #daa520; 
-}
-
-
 #livros {
     font-family: 'Noto Serif', serif;
     display: flex;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 11%, rgba(61, 51, 26, 1) 76%, rgba(142, 119, 62, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(247, 209, 108, 1) 100%);
     text-align: center;
-    padding-bottom:  40px;
+    padding-bottom: 40px;
 }
 
 #livros h1 {
@@ -97,7 +150,7 @@ main {
     margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 30px;
-    color: #daa520; 
+    color: #daa520;
     font-size: 30px;
 }
 
@@ -105,12 +158,13 @@ main {
     color: #bbb5a8;
 }
 
-.imglivro{
+.imglivro {
     margin-top: 50px;
     margin-right: 10px;
     padding-left: 10px;
 }
-#contato{
+
+#contato {
     display: flex;
     justify-content: center;
     background: rgb(0, 0, 0);
